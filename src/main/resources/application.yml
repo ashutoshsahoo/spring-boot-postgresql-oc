@@ -1,0 +1,12 @@
+spring:
+#  datasource:
+#    url: jdbc:postgresql://postgresql/postgres
+#    #url: jdbc:postgresql://192.168.99.101/postgres
+#    username: postgres
+#    password: postgres123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.jdbc.lob.non_contextual_creation: true
+#    database: postgresql
